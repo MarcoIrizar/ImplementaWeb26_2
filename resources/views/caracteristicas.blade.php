@@ -1,11 +1,19 @@
 @extends('master')
 
 @section('pestaña')
+<<<<<<< HEAD
     <title>Características</title>
 @endsection
 
 @section('titulo')
     <h1>Características</h1>
+=======
+    <title>Editar Alumnos</title>
+@endsection
+
+@section('titulo')
+    <h1>Editar Alumnos</h1>
+>>>>>>> fd817f8cb92629bca7de6db4f379a41140b0a190
 @stop
 
 @section('contenido')
@@ -21,6 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+<<<<<<< HEAD
                         <a class="nav-link" href="{{ url('/') }}">Presentación</a>
                     </li>
                     <li class="nav-item">
@@ -34,6 +43,21 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/formulario') }}">Formulario</a>
+=======
+                        <a class="nav-link" href="presentacion.html">Presentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="caracteristicas.html">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Formulario</a>
+>>>>>>> fd817f8cb92629bca7de6db4f379a41140b0a190
                     </li>
                 </ul>
             </div>
